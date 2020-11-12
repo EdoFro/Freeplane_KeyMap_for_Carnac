@@ -1,0 +1,10 @@
+#  keys dictionary for Carnac
+Less=<
+Back_space=Back
+Plus=+
+Minus=-
+Page_down=PageDown
+Page_up=PageUp
+Comma=,
+Quote='
+Period=.

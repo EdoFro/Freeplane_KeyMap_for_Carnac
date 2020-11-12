@@ -1,0 +1,483 @@
+group:          freeplane
+process:        javaw
+
+# Reference: Freeplane_KeyMap_for_Carnac
+
+shortcuts:
+    - name: Save map
+      keys:
+      - Ctrl+S
+    - name: Save map as…
+      keys:
+      - Ctrl+Shift+S
+    - name: Open saved map…
+      keys:
+      - Ctrl+O
+    - name: Move branch to new map…
+      keys:
+      - Alt+Shift+A
+    - name: Print map…
+      keys:
+      - Ctrl+P
+    - name: Close current map
+      keys:
+      - Ctrl+W
+    - name: Quit Freeplane
+      keys:
+      - Ctrl+Q
+    - name: Undo
+      keys:
+      - Ctrl+Z
+    - name: Redo
+      keys:
+      - Ctrl+Y
+    - name: Edit node core in-line
+      keys:
+      - F2
+    - name: Edit node core in dialog
+      keys:
+      - Alt+Enter
+    - name: Split node
+      keys:
+      - Ctrl+Shift+J
+    - name: Join nodes with "\n"
+      keys:
+      - Ctrl+J
+    - name: Join nodes with " "
+      keys:
+      - Ctrl+Alt+J
+    - name: Image by choice or link…
+      keys:
+      - Alt+Shift+K
+    - name: Edit node details in-line
+      keys:
+      - Ctrl+D
+    - name: Edit node details in dialog
+      keys:
+      - Alt+D
+    - name: Edit attribute in-line
+      keys:
+      - Alt+F9
+    - name: Attributes from style
+      keys:
+      - Ctrl+Alt+Shift+A
+    - name: Cut
+      keys:
+      - Ctrl+X
+    - name: Copy branch
+      keys:
+      - Ctrl+C
+    - name: Copy node (single)
+      keys:
+      - Ctrl+Shift+C
+    - name: Paste
+      keys:
+      - Ctrl+V
+    - name: Paste as…
+      keys:
+      - Ctrl+Shift+V
+    - name: Paste Clone
+      keys:
+      - Ctrl+Alt+V
+    - name: Move node (Sibling up)
+      keys:
+      - Ctrl+Up
+    - name: Move node (Sibling down)
+      keys:
+      - Ctrl+Down
+    - name: Move node (Parents sibling)
+      keys:
+      - Ctrl+Left
+    - name: Move node (Siblings child)
+      keys:
+      - Ctrl+Right
+    - name: Reset node position
+      keys:
+      - Ctrl+R
+    - name: Find…
+      keys:
+      - Ctrl+G
+    - name: Find and replace…
+      keys:
+      - Ctrl+Shift+F
+    - name: New child node
+      keys:
+      - F12
+    - name: New sibling node
+      keys:
+      - Enter
+    - name: New previous sibling node
+      keys:
+      - Shift+Enter
+    - name: New parent node
+      keys:
+      - Shift+F12
+    - name: New summary node (selected nodes)
+      keys:
+      - Ctrl+F12
+    - name: Remove node
+      keys:
+      - Delete
+    - name: Arc
+      keys:
+      - Ctrl+Shift+B
+    - name: Connect
+      keys:
+      - Ctrl+L
+    - name: Add hyperlink (file)…
+      keys:
+      - Ctrl+Shift+K
+    - name: Add hyperlink (URL)…
+      keys:
+      - Ctrl+K
+    - name: Add local hyperlink
+      keys:
+      - Alt+Shift+L
+    - name: Icon from table…
+      keys:
+      - Ctrl+F2
+    - name: Yellow Flag
+      keys:
+      - Ctrl+Alt+Y
+    - name: Quick_Win
+      keys:
+      - Ctrl+Shift+Q
+    - name: Wunderlist (agregado en)
+      keys:
+      - Ctrl+Shift+W
+    - name: Progress up
+      keys:
+      - Alt+<
+    - name: Progress down
+      keys:
+      - Alt+Shift+<
+    - name: Remove first icon
+      keys:
+      - Ctrl+Shift+Delete
+    - name: Remove Last Icon
+      keys:
+      - Ctrl+Shift+Back
+    - name: Filter toolbar
+      keys:
+      - Ctrl+F
+    - name: Tool panel
+      keys:
+      - Ctrl+Shift+P
+    - name: Zoom in
+      keys:
+      - Alt+Up
+    - name: Zoom out
+      keys:
+      - Alt+Down
+    - name: Full screen mode
+      keys:
+      - F11
+    - name: Minimize node
+      keys:
+      - Alt+A
+    - name: Hide details
+      keys:
+      - Alt+F2
+    - name: Display note panel
+      keys:
+      - Ctrl+<
+    - name: Bold
+      keys:
+      - Ctrl+B
+    - name: Larger font
+      keys:
+      - Ctrl++
+    - name: Smaller font
+      keys:
+      - Ctrl+-
+    - name: Node text color…
+      keys:
+      - Alt+Shift+F
+    - name: Node background color…
+      keys:
+      - Alt+Shift+B
+    - name: Use plain text
+      keys:
+      - Alt+Shift+P
+    - name: Edge color…
+      keys:
+      - Alt+Shift+E
+    - name: Reset node style
+      keys:
+      - Ctrl+Alt+R
+    - name: Siguiente tarea
+      keys:
+      - Ctrl+Alt+S
+    - name: Tarea pendiente
+      keys:
+      - Ctrl+Alt+T
+    - name: Tarea finalizada
+      keys:
+      - Ctrl+Alt+X
+    - name: Proyecto
+      keys:
+      - Ctrl+Alt+P
+    - name: Grupito
+      keys:
+      - Ctrl+Alt+G
+    - name: Iniciativa
+      keys:
+      - Ctrl+Alt+I
+    - name: Organizador
+      keys:
+      - Ctrl+Alt+O
+    - name: numerado
+      keys:
+      - Ctrl+Alt+N
+    - name: Tarea Descartada
+      keys:
+      - Ctrl+Alt+D
+    - name: Acuerdo
+      keys:
+      - Ctrl+Alt+A
+    - name: Minuta
+      keys:
+      - Ctrl+Alt+M
+    - name: con duda
+      keys:
+      - Ctrl+Alt+'
+    - name: file_folder
+      keys:
+      - Ctrl+Alt+F
+    - name: locked
+      keys:
+      - Ctrl+Alt+L
+    - name: Redefine style
+      keys:
+      - Ctrl+Alt+Shift+S
+    - name: Apply map styles from…
+      keys:
+      - Ctrl+Shift+O
+    - name: Edit styles
+      keys:
+      - Ctrl+F11
+    - name: Copy format
+      keys:
+      - Alt+Shift+C
+    - name: Paste format
+      keys:
+      - Alt+Shift+V
+    - name: Previous map
+      keys:
+      - Ctrl+Shift+Tab
+    - name: Next map
+      keys:
+      - Ctrl+Tab
+    - name: (Un)fold
+      keys:
+      - Space
+    - name: Show next child
+      keys:
+      - Shift+Space
+    - name: (Un)fold children
+      keys:
+      - Ctrl+Space
+    - name: Unfold one level
+      keys:
+      - Alt+PageDown
+    - name: Fold one level
+      keys:
+      - Alt+PageUp
+    - name: Unfold all
+      keys:
+      - Alt+End
+    - name: Fold all
+      keys:
+      - Alt+Home
+    - name: Run presentation/Next slide
+      keys:
+      - F5
+    - name: Stop presentation
+      keys:
+      - Shift+F5
+    - name: Previous slide
+      keys:
+      - Ctrl+F5
+    - name: Select all visible nodes
+      keys:
+      - Ctrl+A
+    - name: Select visible branch
+      keys:
+      - Ctrl+Shift+A
+    - name: Goto root
+      keys:
+      - Ctrl+Home
+    - name: Goto previous node (fold)
+      keys:
+      - Ctrl+Shift+Left
+    - name: Goto next node (fold)
+      keys:
+      - Ctrl+Shift+Right
+    - name: Unfold next presentation item
+      keys:
+      - Ctrl+Alt+Space
+    - name: Unfold next presentation item (fold)
+      keys:
+      - Ctrl+Shift+Space
+    - name: Go backward
+      keys:
+      - Alt+Left
+    - name: Go forward
+      keys:
+      - Alt+Right
+    - name: Follow link
+      keys:
+      - Ctrl+Enter
+    - name: Jump To Next Clone
+      keys:
+      - Typed+Ctrl+º
+    - name: Manage time…
+      keys:
+      - Ctrl+T
+    - name: Execute selected node scripts
+      keys:
+      - Ctrl+Shift+F9
+    - name: Edit script…
+      keys:
+      - Ctrl+F9
+    - name: Evaluate all
+      keys:
+      - F9
+    - name: Clear dependencies
+      keys:
+      - Alt+F6
+    - name: Trace Precedents
+      keys:
+      - Alt+F7
+    - name: Trace Dependents
+      keys:
+      - Alt+F8
+    - name: Command Search
+      keys:
+      - Ctrl+F1
+    - name: Preferences…
+      keys:
+      - Ctrl+,
+    - name: Set text change hot key
+      keys:
+      - Ctrl+Shift+F10
+    - name: Free memory
+      keys:
+      - Meta+G
+    - name: Groovy console
+      keys:
+      - Ctrl+Shift+G
+    - name: Mind map editor
+      keys:
+      - Alt+1
+    - name: File explorer
+      keys:
+      - Alt+3
+    - name: Documentation
+      keys:
+      - F1
+    - name: Pinta Nodos Al Azar
+      keys:
+      - Ctrl+Shift+Z
+    - name: Texto_de_file_a_nota_de_nodo
+      keys:
+      - Ctrl+Shift+<
+    - name: Tomar_link_de_siguiente_nodo
+      keys:
+      - Ctrl+Shift+L
+    - name: Transformar_en_detalle_el_texto_del_siguiente_nodo
+      keys:
+      - Ctrl+Shift+D
+    - name: X_Copia Texto Hijos ANota Del Padre
+      keys:
+      - Alt+N
+    - name: VBA_Connectores Desde Nodos Que Llaman Rutina
+      keys:
+      - Ctrl+Shift+F1
+    - name: Marcar Nodos Entendidos
+      keys:
+      - Ctrl+3
+    - name: Marcar Nodos Iguales
+      keys:
+      - Ctrl+1
+    - name: Quitar Marca Nodos Iguales
+      keys:
+      - Ctrl+2
+    - name: Reformateando_lecciones_UDEMY
+      keys:
+      - Alt+U
+    - name: Sumar_tiempos_en_detalle_de_hijos_(lecciones_Udemy)
+      keys:
+      - Ctrl+F10
+    - name: Vacio_1
+      keys:
+      - Ctrl+Shift+1
+    - name: Vacio_2
+      keys:
+      - Ctrl+Shift+2
+    - name: Vacio_3
+      keys:
+      - Ctrl+Shift+3
+    - name: Vacio_4
+      keys:
+      - Ctrl+Shift+4
+    - name: Vacio_5
+      keys:
+      - Ctrl+Shift+5
+    - name: Vacio_7
+      keys:
+      - Ctrl+Shift+7
+    - name: Vacio_8
+      keys:
+      - Ctrl+Shift+8
+    - name: Vacio_9
+      keys:
+      - Ctrl+Shift+'
+    - name: Copy Link To Clipboard
+      keys:
+      - Ctrl+Alt+Shift+C
+    - name: File To Note
+      keys:
+      - Ctrl+Alt+Right
+    - name: My Temp File
+      keys:
+      - Ctrl+Shift+M
+    - name: Note To File
+      keys:
+      - Ctrl+Alt+Left
+    - name: Open With Notepad++
+      keys:
+      - Ctrl+Shift++
+    - name: PT_Asignar_IMP_URG_ESF_de_tareas_hijas
+      keys:
+      - Ctrl+Shift+T
+    - name: PT_Aumentar_Esfuerzo
+      keys:
+      - Ctrl+E
+    - name: PT_Aumentar_Importancia
+      keys:
+      - Ctrl+I
+    - name: PT_Aumentar_Urgencia
+      keys:
+      - Ctrl+U
+    - name: PT_Disminuir_Esfuerzo
+      keys:
+      - Ctrl+Shift+E
+    - name: PT_Disminuir_Importancia
+      keys:
+      - Ctrl+Shift+I
+    - name: PT_Disminuir_Urgencia
+      keys:
+      - Ctrl+Shift+U
+    - name: PT_Ir ATarea Original
+      keys:
+      - Typed+Ctrl+Shift+ª
+    - name: Go to next bookmark
+      keys:
+      - Alt+.
+    - name: Go to previous bookmark
+      keys:
+      - Alt+,
+    - name: Add / Remove a Bookmark
+      keys:
+      - Alt+B
