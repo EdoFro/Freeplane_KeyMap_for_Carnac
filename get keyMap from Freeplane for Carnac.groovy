@@ -1,5 +1,6 @@
 // @ExecutionModes({ON_SINGLE_NODE})
 
+
 // texto: string variable that will contain the whole text of the file to be saved
 texto = new StringBuilder()
 texto << "group:          freeplane\nprocess:        javaw\n\n# Reference: Freeplane_KeyMap_for_Carnac\n\nshortcuts:\n"
@@ -35,7 +36,7 @@ c.statusInfo = "freeplane.yml updated with actual keymap"
 def caso(n){
     if(n.leaf){
         def menuEntry = n.getUserObject()
-        texto <<  "    - name: ${menuEntry.toString()}"  <<"\n"
+        texto <<  "    - name: ${formatName(menuEntry.toString())}"  <<"\n"
         << "      keys:"  <<"\n"
         <<  "      - ${formatCarnac(menuEntry.getKeyStroke())}"  <<"\n"
      }
@@ -83,4 +84,9 @@ def getMapFromFile(path){
         } 
     } else { c.statusInfo = "translation file not found"}
     return myMap
+}
+
+def formatName(s){
+    def elipse = ((char) 8230).toString()
+    return s.replace(elipse,"...")
 }
