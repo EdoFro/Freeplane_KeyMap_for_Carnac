@@ -17,6 +17,8 @@ The information read by the script is the same you can see in Freeplane in the "
 
 This new file (Freeplane.yml) has to be then manually copied to the **Carnac\Keymaps** directory.
 
+(usually in C:\Users\xxx\AppData\Local\carnac\Keymaps)
+
 The Freeplane.yml file that is in this repository was made using this script by me, so, it contains the key combination I personally use in Freeplane.
 
 ---

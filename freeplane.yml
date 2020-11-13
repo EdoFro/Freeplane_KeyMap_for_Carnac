@@ -7,16 +7,16 @@ shortcuts:
     - name: Save map
       keys:
       - Ctrl+S
-    - name: Save map as…
+    - name: Save map as...
       keys:
       - Ctrl+Shift+S
-    - name: Open saved map…
+    - name: Open saved map...
       keys:
       - Ctrl+O
-    - name: Move branch to new map…
+    - name: Move branch to new map...
       keys:
       - Alt+Shift+A
-    - name: Print map…
+    - name: Print map...
       keys:
       - Ctrl+P
     - name: Close current map
@@ -46,7 +46,7 @@ shortcuts:
     - name: Join nodes with " "
       keys:
       - Ctrl+Alt+J
-    - name: Image by choice or link…
+    - name: Image by choice or link...
       keys:
       - Alt+Shift+K
     - name: Edit node details in-line
@@ -73,7 +73,7 @@ shortcuts:
     - name: Paste
       keys:
       - Ctrl+V
-    - name: Paste as…
+    - name: Paste as...
       keys:
       - Ctrl+Shift+V
     - name: Paste Clone
@@ -94,10 +94,10 @@ shortcuts:
     - name: Reset node position
       keys:
       - Ctrl+R
-    - name: Find…
+    - name: Find...
       keys:
       - Ctrl+G
-    - name: Find and replace…
+    - name: Find and replace...
       keys:
       - Ctrl+Shift+F
     - name: New child node
@@ -124,16 +124,16 @@ shortcuts:
     - name: Connect
       keys:
       - Ctrl+L
-    - name: Add hyperlink (file)…
+    - name: Add hyperlink (file)...
       keys:
       - Ctrl+Shift+K
-    - name: Add hyperlink (URL)…
+    - name: Add hyperlink (URL)...
       keys:
       - Ctrl+K
     - name: Add local hyperlink
       keys:
       - Alt+Shift+L
-    - name: Icon from table…
+    - name: Icon from table...
       keys:
       - Ctrl+F2
     - name: Yellow Flag
@@ -190,16 +190,16 @@ shortcuts:
     - name: Smaller font
       keys:
       - Ctrl+-
-    - name: Node text color…
+    - name: Node text color...
       keys:
       - Alt+Shift+F
-    - name: Node background color…
+    - name: Node background color...
       keys:
       - Alt+Shift+B
     - name: Use plain text
       keys:
       - Alt+Shift+P
-    - name: Edge color…
+    - name: Edge color...
       keys:
       - Alt+Shift+E
     - name: Reset node style
@@ -250,7 +250,7 @@ shortcuts:
     - name: Redefine style
       keys:
       - Ctrl+Alt+Shift+S
-    - name: Apply map styles from…
+    - name: Apply map styles from...
       keys:
       - Ctrl+Shift+O
     - name: Edit styles
@@ -331,13 +331,13 @@ shortcuts:
     - name: Jump To Next Clone
       keys:
       - Typed+Ctrl+º
-    - name: Manage time…
+    - name: Manage time...
       keys:
       - Ctrl+T
     - name: Execute selected node scripts
       keys:
       - Ctrl+Shift+F9
-    - name: Edit script…
+    - name: Edit script...
       keys:
       - Ctrl+F9
     - name: Evaluate all
@@ -355,7 +355,7 @@ shortcuts:
     - name: Command Search
       keys:
       - Ctrl+F1
-    - name: Preferences…
+    - name: Preferences...
       keys:
       - Ctrl+,
     - name: Set text change hot key
