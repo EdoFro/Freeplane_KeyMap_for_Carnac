@@ -4,15 +4,9 @@ process:        javaw
 # Reference: Freeplane_KeyMap_for_Carnac
 
 shortcuts:
-    - name: Save map
-      keys:
-      - Ctrl+S
     - name: Save map as...
       keys:
       - Ctrl+Shift+S
-    - name: Open saved map...
-      keys:
-      - Ctrl+O
     - name: Move branch to new map...
       keys:
       - Alt+Shift+A
@@ -43,9 +37,6 @@ shortcuts:
     - name: Join nodes with "\n"
       keys:
       - Ctrl+J
-    - name: Join nodes with " "
-      keys:
-      - Ctrl+Alt+J
     - name: Image by choice or link...
       keys:
       - Alt+Shift+K
@@ -61,6 +52,12 @@ shortcuts:
     - name: Attributes from style
       keys:
       - Ctrl+Alt+Shift+A
+    - name: Note Edit Switch
+      keys:
+      - Ctrl+<
+    - name: Edit note in dialog
+      keys:
+      - Alt+<
     - name: Cut
       keys:
       - Ctrl+X
@@ -76,6 +73,9 @@ shortcuts:
     - name: Paste as...
       keys:
       - Ctrl+Shift+V
+    - name: Move
+      keys:
+      - Ctrl+M
     - name: Paste Clone
       keys:
       - Ctrl+Alt+V
@@ -97,9 +97,15 @@ shortcuts:
     - name: Find...
       keys:
       - Ctrl+G
+    - name: Find next
+      keys:
+      - Ctrl+Shift+G
     - name: Find and replace...
       keys:
       - Ctrl+Shift+F
+    - name: Jumper
+      keys:
+      - Ctrl+Alt+J
     - name: New child node
       keys:
       - F12
@@ -118,9 +124,6 @@ shortcuts:
     - name: Remove node
       keys:
       - Delete
-    - name: Arc
-      keys:
-      - Ctrl+Shift+B
     - name: Connect
       keys:
       - Ctrl+L
@@ -145,9 +148,6 @@ shortcuts:
     - name: Wunderlist (agregado en)
       keys:
       - Ctrl+Shift+W
-    - name: Progress up
-      keys:
-      - Alt+<
     - name: Progress down
       keys:
       - Alt+Shift+<
@@ -157,18 +157,39 @@ shortcuts:
     - name: Remove Last Icon
       keys:
       - Ctrl+Shift+Back
-    - name: Filter toolbar
-      keys:
-      - Ctrl+F
-    - name: Tool panel
-      keys:
-      - Ctrl+Shift+P
     - name: Zoom in
       keys:
       - Alt+Up
     - name: Zoom out
       keys:
       - Alt+Down
+    - name: Scroll left
+      keys:
+      - Alt+Shift+Right
+    - name: Scroll up
+      keys:
+      - Alt+Shift+Down
+    - name: Scroll right
+      keys:
+      - Alt+Shift+Left
+    - name: Scroll down
+      keys:
+      - Alt+Shift+Up
+    - name: Center selected node
+      keys:
+      - Home
+    - name: Center selected node at left
+      keys:
+      - Shift+Home
+    - name: Filter toolbar
+      keys:
+      - Ctrl+F
+    - name: Map overview
+      keys:
+      - Ctrl+O
+    - name: Tool panel
+      keys:
+      - Ctrl+Shift+P
     - name: Full screen mode
       keys:
       - F11
@@ -180,7 +201,7 @@ shortcuts:
       - Alt+F2
     - name: Display note panel
       keys:
-      - Ctrl+<
+      - Ctrl+Alt+<
     - name: Bold
       keys:
       - Ctrl+B
@@ -205,54 +226,48 @@ shortcuts:
     - name: Reset node style
       keys:
       - Ctrl+Alt+R
-    - name: Siguiente tarea
-      keys:
-      - Ctrl+Alt+S
-    - name: Tarea pendiente
-      keys:
-      - Ctrl+Alt+T
-    - name: Tarea finalizada
-      keys:
-      - Ctrl+Alt+X
-    - name: Proyecto
-      keys:
-      - Ctrl+Alt+P
-    - name: Grupito
-      keys:
-      - Ctrl+Alt+G
-    - name: Iniciativa
-      keys:
-      - Ctrl+Alt+I
-    - name: Organizador
-      keys:
-      - Ctrl+Alt+O
-    - name: numerado
-      keys:
-      - Ctrl+Alt+N
-    - name: Tarea Descartada
-      keys:
-      - Ctrl+Alt+D
-    - name: Acuerdo
-      keys:
-      - Ctrl+Alt+A
-    - name: Minuta
-      keys:
-      - Ctrl+Alt+M
-    - name: con duda
-      keys:
-      - Ctrl+Alt+'
     - name: file_folder
       keys:
       - Ctrl+Alt+F
     - name: locked
       keys:
       - Ctrl+Alt+L
+    - name: nextTask
+      keys:
+      - Ctrl+Alt+S
+    - name: pendingTask
+      keys:
+      - Ctrl+Alt+T
+    - name: completedTask
+      keys:
+      - Ctrl+Alt+X
+    - name: discardedTask
+      keys:
+      - Ctrl+Alt+D
+    - name: Proyecto
+      keys:
+      - Ctrl+Alt+P
+    - name: Iniciativa
+      keys:
+      - Ctrl+Alt+I
+    - name: Organizador
+      keys:
+      - Ctrl+Alt+O
+    - name: Minuta
+      keys:
+      - Ctrl+Alt+M
+    - name: Acuerdo
+      keys:
+      - Ctrl+Alt+A
+    - name: numerado
+      keys:
+      - Ctrl+Alt+N
+    - name: con duda
+      keys:
+      - Ctrl+Alt+'
     - name: Redefine style
       keys:
       - Ctrl+Alt+Shift+S
-    - name: Apply map styles from...
-      keys:
-      - Ctrl+Shift+O
     - name: Edit styles
       keys:
       - Ctrl+F11
@@ -331,6 +346,9 @@ shortcuts:
     - name: Jump To Next Clone
       keys:
       - Typed+Ctrl+º
+    - name: Find next
+      keys:
+      - F3
     - name: Manage time...
       keys:
       - Ctrl+T
@@ -352,9 +370,6 @@ shortcuts:
     - name: Trace Dependents
       keys:
       - Alt+F8
-    - name: Command Search
-      keys:
-      - Ctrl+F1
     - name: Preferences...
       keys:
       - Ctrl+,
@@ -364,24 +379,21 @@ shortcuts:
     - name: Free memory
       keys:
       - Meta+G
-    - name: Groovy console
-      keys:
-      - Ctrl+Shift+G
     - name: Mind map editor
       keys:
       - Alt+1
     - name: File explorer
       keys:
       - Alt+3
+    - name: Command Search
+      keys:
+      - Ctrl+F1
     - name: Documentation
       keys:
       - F1
     - name: Pinta Nodos Al Azar
       keys:
       - Ctrl+Shift+Z
-    - name: Texto_de_file_a_nota_de_nodo
-      keys:
-      - Ctrl+Shift+<
     - name: Tomar_link_de_siguiente_nodo
       keys:
       - Ctrl+Shift+L
@@ -409,27 +421,6 @@ shortcuts:
     - name: Sumar_tiempos_en_detalle_de_hijos_(lecciones_Udemy)
       keys:
       - Ctrl+F10
-    - name: Vacio_1
-      keys:
-      - Ctrl+Shift+1
-    - name: Vacio_2
-      keys:
-      - Ctrl+Shift+2
-    - name: Vacio_3
-      keys:
-      - Ctrl+Shift+3
-    - name: Vacio_4
-      keys:
-      - Ctrl+Shift+4
-    - name: Vacio_5
-      keys:
-      - Ctrl+Shift+5
-    - name: Vacio_7
-      keys:
-      - Ctrl+Shift+7
-    - name: Vacio_8
-      keys:
-      - Ctrl+Shift+8
     - name: Vacio_9
       keys:
       - Ctrl+Shift+'
@@ -439,15 +430,15 @@ shortcuts:
     - name: File To Note
       keys:
       - Ctrl+Alt+Right
-    - name: My Temp File
-      keys:
-      - Ctrl+Shift+M
     - name: Note To File
       keys:
       - Ctrl+Alt+Left
     - name: Open With Notepad++
       keys:
       - Ctrl+Shift++
+    - name: Text From File To Nodes Note
+      keys:
+      - Ctrl+Shift+<
     - name: PT_Asignar_IMP_URG_ESF_de_tareas_hijas
       keys:
       - Ctrl+Shift+T
@@ -472,12 +463,63 @@ shortcuts:
     - name: PT_Ir ATarea Original
       keys:
       - Typed+Ctrl+Shift+ª
-    - name: Go to next bookmark
+    - name: save map using its own preferences
       keys:
-      - Alt+.
-    - name: Go to previous bookmark
+      - Ctrl+S
+    - name: show Markdown Helper Dialog
       keys:
-      - Alt+,
-    - name: Add / Remove a Bookmark
+      - Ctrl+Shift+M
+    - name: menu item under mouse as new node
+      keys:
+      - Ctrl+Shift+F2
+    - name: list menu dialogs
+      keys:
+      - Shift+Escape
+    - name: 1. taskCounter
+      keys:
+      - Ctrl+Shift+1
+    - name: 2. desarrollando
+      keys:
+      - Ctrl+Shift+2
+    - name: 3. create Image Child
+      keys:
+      - Ctrl+Shift+3
+    - name: 4. open file with notepad++
+      keys:
+      - Ctrl+Shift+4
+    - name: 5. Tareas pendientes a null
+      keys:
+      - Ctrl+Shift+5
+    - name: 6. transformar 'siguientes Tarea' a 'pendiente'
+      keys:
+      - Ctrl+Shift+6
+    - name: 7. crear file desde nota de nodo V2
+      keys:
+      - Ctrl+Shift+7
+    - name: 8. on / off imagen de nodo y descendencia
+      keys:
+      - Ctrl+Shift+8
+    - name: hierarchy swap
+      keys:
+      - Ctrl+Shift+H
+    - name: Open with WikdShell console
+      keys:
+      - Ctrl+Alt+G
+    - name: Open with WikdShell console (no restrictions)
+      keys:
+      - Ctrl+Alt+Shift+G
+    - name: Add / Remove a bookmark ...
+      keys:
+      - Ctrl+Shift+B
+    - name: Toggle the bookmark
       keys:
       - Alt+B
+    - name: Jump to bookmark ...
+      keys:
+      - Alt+J
+    - name: Jump to previous bookmark
+      keys:
+      - Ctrl+Shift+Up
+    - name: Jump to next bookmark
+      keys:
+      - Ctrl+Shift+Down

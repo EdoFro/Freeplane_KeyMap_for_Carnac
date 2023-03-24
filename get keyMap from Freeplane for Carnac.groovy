@@ -12,17 +12,26 @@ def menu = "main_menu"
 // http://www.freeplane.org/doc/api/org/freeplane/core/util/MenuUtils.MenuEntry.html
 def keyStrokes = menuUtils.createAcceleratebleMenuEntryTree(menu)
 
+/*
 // scriptDir2: the path where this script is saved
 def scriptDir2 = new File(this.class.protectionDomain.codeSource.location.path).parent
-
 // loads translationMap with pairs in keysDict.txt
 translationMap = getMapFromFile("${scriptDir2}/keysDict.txt")
+//defines .yml file
+def ymlFile = new File("${scriptDir2}/freeplane.yml")
+*/
+
+// get files
+def ymlFile = node.find{it.text == 'freeplane.yml'}[0]?.link?.file
+def keysDictFile = node.find{it.text =="keysDict.txt"}[0]?.link?.file
+
+// loads translationMap with pairs in keysDict.txt
+translationMap = getMapFromFile(keysDictFile)
 
 // executes method wich goes through the keyStrokes MenuEntry Map and appends the information in 'texto'
 caso (keyStrokes)
 
 // saves the information to the freeplane.yml file
-def ymlFile = new File("${scriptDir2}/freeplane.yml")
 ymlFile.text = texto
 
 // it also shows this info in a new node's note
@@ -73,8 +82,12 @@ def traduce(t){
 // reads file (line by line) and loads its information in a map
 // ignores comment lines (starting with #)
 // and uses only the one with an "="
-def getMapFromFile(path){
+def getMapFromFile(String path){
     def file = new File(path)
+    return getMapFromFile(file)
+}
+
+def getMapFromFile(File file){
     def myMap = [:]
     if (file?.exists()){
         file.eachLine{line-> 

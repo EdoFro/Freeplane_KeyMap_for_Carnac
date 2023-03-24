@@ -1,11 +1,16 @@
+-----
+
 # Freeplane_KeyMap_for_Carnac
+
 Groovy script to create an yml file containing the actual key shortcuts of Freeplane to be used with Carnac
 
-Carnac helps showing the keystrokes the user make when using an application. This can be helpful when doing HowTo videos or streaming. Look a few seconds of this [video](https://youtu.be/nvE_4iXmkeM?t=160) to get the idea of how it works with Freeplane.
+Carnac helps showing the keystrokes the user make when using an application. This can be helpful when doing HowTo videos or streaming.
 
----
+Look a few seconds of this [video](https://youtu.be/nvE_4iXmkeM?t=160) to get the idea of how it works with Freeplane.
 
-## About Freeplane_KeyMap_for_Carnac
+-----
+
+## 1. About Freeplane_KeyMap_for_Carnac
 
 The script in this repository takes the information about the key accelerators that are active in **your** Freeplane application and save them as an **.yml** file that can be used by Carnac.
 
@@ -21,9 +26,9 @@ This new file (Freeplane.yml) has to be then manually copied to the **Carnac\Key
 
 The Freeplane.yml file that is in this repository was made using this script by me, so, it contains the key combination I personally use in Freeplane.
 
----
+-----
 
-## Motivation
+## 2. Motivation
 
 I wanted to do some videos about using some Freeplane features and came to Carnac as an option to show the KeyStrokes I use while using Freeplane.
 
@@ -37,19 +42,19 @@ I think it's a script that can be easily adapted for other applications (if need
 
 Look at the script itself for further information. I put a lot of comments to make it understandable.
 
----
+-----
 
-## About Freeplane
+## 3. About Freeplane
 
 [Freeplane](https://www.freeplane.org/wiki/index.php/Home) is a free and open source software application that supports thinking, sharing information and getting things done at work, in school and at home. The software can be used for [mind mapping](https://secure.wikimedia.org/wikipedia/en/wiki/Mind_map) and analyzing the information contained in mind maps. Freeplane runs on any operating system that has a current version of Java installed. It can be run locally or [portably](https://en.wikipedia.org/wiki/Portable_application) from removable storage like a USB drive.
 
 ![Freeplane example](https://www.freeplane.org/wiki/images/1/12/FreeplaneWiki.jpg)
 
----
+-----
 
-## About Carnac - 'the Magnificent Keyboard Utility'
+## 4. About Carnac - 'the Magnificent Keyboard Utility'
 
-[Carnac](http://carnackeys.com/) is a keyboard logging and presentation utility for presentations, screencasts, and to help you become a better keyboard user. (As far as I know it is Windows only)
+ [Carnac](http://carnackeys.com/) is a keyboard logging and presentation utility for presentations, screencasts, and to help you become a better keyboard user. (As far as I know it is Windows only)
 
 [Carnac in code52.org](http://code52.org/carnac/)
 
@@ -58,3 +63,4 @@ Look at the script itself for further information. I put a lot of comments to ma
 ![Carnac screenshot](https://code52.org/carnac/screenshot.png)
 
 ![Carnac example](http://carnackeys.com/images/screenshot.gif)
+
